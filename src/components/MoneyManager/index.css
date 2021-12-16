@@ -1,1 +1,75 @@
 /* Write your CSS here */
+.bgContainer {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+}
+.headerStyle {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  border-radius: 0px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 10px;
+}
+.heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #334155;
+}
+.heighlighted {
+  color: #0b69ff;
+  font-weight: bold;
+}
+.inputContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  border-color: black;
+}
+.formContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.labelFormat {
+  color: #7e858e;
+  font-size: 12px;
+  padding: 3px;
+}
+.inputBox {
+  height: 30px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #7e858e;
+  padding: 5px;
+  width: 300px;
+}
+.addButton {
+  background-color: #0b69ff;
+  color: #ffffff;
+  width: 80px;
+  font-family: 'Roboto';
+  border-radius: 3px;
+  border-width: 0px;
+  padding: 5px;
+  margin: 5px;
+}
+.historyContainer {
+  background-color: #ffffff;
+  border-radius: 15px;
+  border-color: black;
+}
